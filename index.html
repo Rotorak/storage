@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Semestrální práce</title>
+  <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+  <div id="formDiv">
+        <form id="carForm">
+            <h1>Local Storage</h1>
+            <label for="carBrand" >Auto</label>
+            <input type="text" id="carBrand" placeholder="Značka auta" required autofocus><br>
+            <label for="carPrice" >Cena</label>
+            <input type="text" id="carPrice" placeholder="Cena" required><br>
+            <label for="key" >Ověření</label>
+            <input type="text" id="key" placeholder="Zadejte Ověření" required><br>
+            <button type="submit">Uložit</button>
+        </form>
+        <br>
+        <label for="retrieveKey" >Pro zobrazení záznamu vlože dané ověření.</label>
+        <input type="text" id="retrieveKey" placeholder="zadejte ověření" required><br>
+        <button id="retrieveButton">Načíst záznam</button>
+        <br>
+        <div id="retrieve"></div>
+        <br>
+        <label for="removeKey" >Vlože ověření pro odebrání záznamu</label>
+        <input type="text" id="removeKey" placeholder="Zadejte ověření" required><br>
+        <button id="removeButton">Odebrat záznam</button>
+        <br>
+        <button id="clearButton">Vymazat všechny záznamy</button>
+  </div>
+</body>
+</html>
